@@ -1,0 +1,28 @@
+1. Execute g++ -v file.cpp
+2. Then, you will get something like this:
+
+=======
+... 
+...
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /opt/homebrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11
+ /opt/homebrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21
+ /opt/homebrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/backward
+ /opt/homebrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/include
+ /opt/homebrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks
+End of search list.
+...
+...
+=======
+
+3. Now copy one of the "/c++/11" paths on the clang config file ("~/Library/Preferences/clangd/config.yaml") in this way:
+
+CompileFlags:
+  Add: [-I/opt/homebrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21]
+
+4. Now enjoy :DD
+

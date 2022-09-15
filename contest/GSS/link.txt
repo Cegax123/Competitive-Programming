@@ -1,0 +1,5 @@
+- https://www.spoj.com/problems/GSS1/
+- https://www.spoj.com/problems/GSS3/
+- https://www.spoj.com/problems/GSS4/
+- https://www.spoj.com/problems/GSS2/
+- https://www.spoj.com/problems/GSS5/

@@ -1,0 +1,6 @@
+1. Copy this to your coc-settings.json
+
+{
+    "suggest.noselect": true
+}
+
