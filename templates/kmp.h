@@ -26,3 +26,5 @@ vector<int> z_function(const string& s) {
     }
     return z;
 }
+
+
