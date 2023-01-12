@@ -18,9 +18,21 @@ int main() {
     while(t--) {
         int n; cin >> n;
         int a[n];
-        for(int i = 0; i < n; i++) cin >> a[i];
-        if(a[0] == 1) cout << "Yes\n";
-        else cout << "No\n";
+
+        for(int i = 0; i < n; i++)
+            cin >> a[i];
+
+        if(n&1) {
+            cout << "YES\n";
+        }
+        else {
+            int x = 0;
+            for(int i = 1; i < n; i++)
+                x ^= a[i];
+
+            if(x == a[0]) cout << "YES\n";
+            else cout << "NO\n";
+        }
     }
 
 	
