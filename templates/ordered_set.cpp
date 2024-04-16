@@ -28,10 +28,12 @@ int main() {
 
     ordered_set s;
 
-    s.insert(4);
+    s.insert(5);
     s.insert(3);
 
     cout << (*s.find_by_order(0)) << "\n"; // -> 3
+    cout << s.order_of_key(4);
 
 	return 0;
 }
+

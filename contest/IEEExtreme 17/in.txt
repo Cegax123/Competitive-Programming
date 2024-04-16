@@ -1,0 +1,16 @@
+<Thesaurus>
+<TermInfo><T>It also</T><BT>if you wAnt</BT></TermInfo>
+<TermInfo><T>if You want</T><NT>a lot of</NT></TermInfo>
+<TermInfo><T>HOLA AMIGOS LINDO</T><NT>aweqweq</NT></TermInfo>
+<TermInfo><T>Power electronics</T><NT>Power integrated circuits</NT></TermInfo>
+<TermInfo><T>Power integrated circuits</T><BT>Power electronics</BT><NT>Air traffic control</NT><UF>Integrated circuit supply</UF></TermInfo>
+<TermInfo><T>Air traffic control</T><BT>Power integrated circuits</BT></TermInfo>
+<TermInfo><T>Product safety engineering</T><NT>Consumer protection</NT></TermInfo>
+<TermInfo><T>Consumer protection</T><BT>Product safety engineering</BT></TermInfo>
+</Thesaurus>
+This article has a lot of? air traffic control information.  it also talks about integrated circuit supply.  If you want 
+consumer?! ,!?protection you better have product. safety. engineering.  Don't be a fool with power integrated circuits.
+hola AMIGOS? lindo 
+HOLA
+AMIGOS
+LINDO
